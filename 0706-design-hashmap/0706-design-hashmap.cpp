@@ -1,9 +1,8 @@
 class MyHashMap {
 public:
-    vector<int> arr;
+    array<int , 1000001> arr;
     MyHashMap() {
-        arr = vector<int> (1000001,-1);
-        
+       arr.fill(-1);
     }
     
     void put(int key, int value) {
