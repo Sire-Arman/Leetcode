@@ -1,29 +1,23 @@
 class Solution {
 public:
-     void solve (vector<int> nums, set<vector<int>> &ans, map<int,bool> mp, vector<int> temp){
-        if(temp.size() == nums.size()){
-            ans.insert(temp);
+     void solve (vector<int> nums, vector<vector<int>> &ans, int i){
+        if(i== nums.size()){
+            if(find(ans.begin(),ans.end(),nums) == ans.end())
+            ans.push_back(nums);
+            
             return;
         }
-        for(int i=0;i<nums.size();i++){
-            if(!mp[i]){
-                mp[i] = true;
-                temp.push_back(nums[i]);
-                solve(nums,ans,mp,temp);
-                temp.pop_back();
-                mp[i] = false;
+        for(int j=i;j<nums.size();j++){
+           swap(nums[i],nums[j]);
+                solve(nums,ans,i+1);
+            swap(nums[i],nums[j]);
             }
         }
-    }
+    
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        set<vector<int>> ans;
           vector<vector<int>> res;
-        vector<int> temp;
-        map<int,bool> mp;
-        solve(nums,ans,mp,temp);
-        for(auto it : ans){
-            res.push_back(it);
-        }
+        int i=0;
+        solve(nums,res,i);
         return res;
     }
 };
