@@ -10,7 +10,7 @@
 
 class Solution {
 public:
-    int findPeak(MountainArray m,int length){
+    int findPeak(MountainArray m, int length){
         int left =1;
         int right = length-2;
         while(left!=right){
@@ -24,51 +24,44 @@ public:
         }
         return left;
     }
-    int binarySearch(int target, MountainArray m, int st,int end,bool reverse){
+    int binarySearch(int target, MountainArray m, int st,int end){
         while(st!=end){
             int mid = st + (end-st)/2;
-            if(!reverse){
-                if (m.get(mid) > target){
+            if (m.get(mid) < target){
+                   st = mid+1;
+            }
+            else{
+                 end = mid;
+            }  
+        }
+        return st;
+    }
+    int RevbinarySearch(int target, MountainArray m, int st,int end){
+        while(st!=end){
+            int mid = st + (end-st)/2;
+             if (m.get(mid) > target){
                 st = mid+1;
             }
             else{
                 end = mid;
             }
         }
-            else{
-                  if (m.get(mid) < target){
-                   st = mid+1;
-            }
-            else{
-                 end = mid;
-            }  
-                }    
-        }
         return st;
     }
-    // int RevbinarySearch(int target, MountainArray m, int st,int end){
-    //     while(st!=end){
-    //         int mid = st + (end-st)/2;
-    //         if (m.get(mid) < target){
-    //             end = mid;
-    //         }
-    //         else{
-    //             st = mid+1;
-    //         }
-    //     }
-    //     return st;
-    // }
     int findInMountainArray(int target, MountainArray &m) {
         int length = m.length();
         int peak = findPeak( m, length);
-        int inc = binarySearch(target , m, 0,peak,true);
-        if(m.get(inc) == target){
-            return inc;
-        }
-            int dec = binarySearch(target , m, peak+1,length-1,false);
-        if(m.get(dec) == target){
-            return dec;
-        }
+        // cout<<peak<<" ";
+        int res = binarySearch(target,m,0,peak);
+        // cout<<res<<" ";
+        if(m.get(res) == target){
+            return res;
+        } 
+        res = RevbinarySearch(target,m,peak+1,length-1);
+        cout<<res<<" ";
+        if(m.get(res) == target){
+            return res;
+        } 
         return -1;
     }
 };
