@@ -16,17 +16,11 @@ public:
             }
         }
         for(int i=0;i<row;i++){
-            if(r[i]){
-               for(int j=0;j<col;j++){
-                matrix[i][j] =0;
-               }
-            }
-        }
-        for(int j=0;j<col;j++){
-            if(c[j]){
-               for(int i=0;i<row;i++){
-                matrix[i][j] =0;
-               }
+            for(int j=0;j<col;j++){
+                if(r[i] || c[j]){
+                     matrix[i][j] =0;
+                    
+                }
             }
         }
     }
