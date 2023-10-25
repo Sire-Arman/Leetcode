@@ -4,8 +4,11 @@ public:
          if(n==1){
              return 0;
          }
-        int length = 1<<(n-2);
+//         previous row ki length
+        int length = pow(2,n-2);
+//         chck first half ya second
         if(k<=length) return kthGrammar(n-1,k);
+//         1- is done to reverse the result
         else return 1-kthGrammar(n-1,k-length);
     }
 };
