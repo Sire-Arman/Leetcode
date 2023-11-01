@@ -15,24 +15,19 @@ public:
             return head;
         }
         ListNode* temp = head;
-        int cnt=0;
-        while(temp){
-            temp = temp->next;
+        int cnt=1;
+        while(temp->next){
             cnt++;
+            temp = temp->next;
         }
         k= k%cnt;
-        int val = 0;
+        k = cnt-k;
+        temp->next = head;
         while(k--){
-            temp = head;
-            val=temp->val;
-            while(temp->next){
-                int t = temp->next->val;
-                temp->next->val = val;
-                 val = t;
-                temp = temp->next;
-            }
-            head->val = val;    
+            temp = temp->next;
         }
+        head = temp->next;
+        temp->next = NULL;
         return head;
     }
 };
