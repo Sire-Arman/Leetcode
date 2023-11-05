@@ -6,20 +6,18 @@ public:
         }
         int val =arr[0],cnt=0;
         int n = arr.size();
-        for(int i=0;i<n;i=(i+1)%n){
-            if(arr[i]<arr[(i+1)%n]){
+        for(int i=1;i<n;i++){
+            if(val<arr[i]){
                 cnt=1;
-                val = arr[(i+1)%n];
-            }
-            
-            else{
-                cnt++;
-                swap(arr[i],arr[(i+1)%n]);
+                val = arr[i];
             }
             if(cnt==k){
                     return val; 
                 }
+            else{
+                cnt++;
+            }
         }
-        return -1;
+        return val;
     }
 };
