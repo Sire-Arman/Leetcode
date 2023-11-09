@@ -1,18 +1,14 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
-       map<char,int> mp;
+       int x=0,y=0;
         for(auto it: s){
-            mp[it]++;
+            x=x^(it-'0');
         }
         for(auto it:t){
-            mp[it]--;
+            y = y^ (it-'0');
         }
-        for(auto it:mp){
-            if(it.second != 0){
-                return it.first;
-            }
-        }
-        return t[0];
+        y=y^x;
+        return y+'0';
     }
 };
