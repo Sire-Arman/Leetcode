@@ -13,7 +13,6 @@ public:
                 reverse(temp.begin(),temp.end());
                 ans+=temp;
                 ans+=' ';
-                cout<<1<<" ";
                 temp="";
             }
             else if(s[i]!=' '){
