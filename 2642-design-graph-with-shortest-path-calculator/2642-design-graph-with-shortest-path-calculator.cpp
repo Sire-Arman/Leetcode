@@ -1,12 +1,12 @@
 class Graph {
 public:
-    #pragma gcc optimize("O3")
+    // #pragma gcc optimize("O3")
     using int2=pair<int,int>;
     vector<vector<int2>> adj;
     int n;
     Graph(int n, vector<vector<int>>& edges):n(n){
         adj.resize(n);
-        #pragma unroll
+        // #pragma unroll
         for(auto &it:edges){
             adj[it[0]].emplace_back(it[2],it[1]);
         }
@@ -21,7 +21,7 @@ public:
         vector<int> dist(n, INT_MAX);
         dist[node1]=0;
         pq.emplace(0, node1);// (distance, node)
-        #pragma unroll
+        // #pragma unroll
         while (!pq.empty()) {
             auto [d, i] = pq.top();
             pq.pop();
@@ -32,7 +32,7 @@ public:
             }
             if (d > dist[i]) continue;    
             int d2;
-            #pragma unroll
+            // #pragma unroll
             for (auto [w, j] : adj[i]) {
                 d2=d+w;
                 if (d2 < dist[j]) {
