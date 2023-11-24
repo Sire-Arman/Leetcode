@@ -1,30 +1,17 @@
-#pragma GCC optimize("O3")
 class Solution {
 public:
     int reductionOperations(vector<int>& nums) {
-        int freq[50001]={0};
-        int minN=50000, maxN=0;
-        #pragma unroll
-        for(int x: nums){
-            freq[x]++;
-            minN=min(minN, x);
-            maxN=max(maxN, x);
-        }
-        int count=0, sum=0;
-        #pragma unroll
-        for(int x=maxN; x>minN; x--){
-            if (freq[x] > 0) {
-                sum+=freq[x];
-                count+=sum;
+        int ans=0,size=1;
+        int ind = nums.size()-1;
+        sort(nums.begin(),nums.end());
+        int val = nums[0];
+        while(nums[ind]!=val){
+            if(nums[ind] != nums[ind-1]){
+                ans+=size;
             }
+            ind--;
+            size++;
         }
-        return count;
+        return ans;
     }
 };
-auto init = []()
-{ 
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
