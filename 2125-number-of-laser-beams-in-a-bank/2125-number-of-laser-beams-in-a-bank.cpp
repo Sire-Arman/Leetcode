@@ -1,7 +1,6 @@
 class Solution {
 public:
     int numberOfBeams(vector<string>& bank) {
-        vector<int> arr;
         long long ans=0;
         int prev=0;
         for(auto it : bank){
