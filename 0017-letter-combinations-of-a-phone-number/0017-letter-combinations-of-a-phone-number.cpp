@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void backtrack(int ind, string temp, string d, vector<string> &ans, map<int,string> mp){
+    void backtrack(int ind, string temp, string d, vector<string> &ans, vector<string> mp){
         if(ind == d.size()){
             if(temp != "") ans.push_back(temp);
             return;
@@ -14,7 +14,7 @@ public:
        
     }
     vector<string> letterCombinations(string d) {
-        map<int,string> mp;
+        vector<string> mp(10);
             mp[2] = "abc";
             mp[3] = "def";
             mp[4] = "ghi";
