@@ -2,10 +2,7 @@ class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         int n = strs.size();
-        map<int,string> mp;
-        for(int i=0;i<n;i++){
-            mp[i] = strs[i];
-        }
+        vector<string> mp = strs;
         for(auto &it : strs){
             sort(it.begin(),it.end());
         }
