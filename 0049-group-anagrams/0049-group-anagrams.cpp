@@ -1,43 +1,30 @@
-#define ll unsigned long long
 class Solution {
 public:
-    bool anagram(string a, string b){
-        if(a.size()!= b.size()){
-            return false;
-        }
-    ll prod1 =1,prod2 =1;  
-    ll sum1 =0,sum2 =0;
-        for(auto it :a){
-            prod1 *= it;
-            sum1 +=it;
-        }
-        for(auto it :b){
-            prod2 *= it;
-            sum2 +=it;
-        }
-        if(prod1== prod2 && sum1 == sum2){
-            return true;
-        } 
-        return false;
-        
-    }
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> res;
-       for(int i = 0;i<strs.size();i++){
-           if(strs[i] == "0"){
-               continue;
-           }
-           vector<string> ans;
-           ans.push_back(strs[i]);
-          for(int j = i+1;j<strs.size();j++){
-              if(anagram(strs[i], strs[j])){
-                  ans.push_back(strs[j]);
-                  strs[j] = "0";
-              }
-          }
+        int n = strs.size();
+        map<int,string> mp;
+        for(int i=0;i<n;i++){
+            mp[i] = strs[i];
+        }
+        for(auto &it : strs){
+            sort(it.begin(),it.end());
+        }
+        map<string,int> mq;
+        vector<vector<string>> ans;
+        int k=1;
+            vector<string> temp;
+        for(int i=0;i<n;i++){
+            if(!mq[strs[i]]){
+                mq[strs[i]] = k;
+                ans.push_back({});
+                ans[k-1].push_back(mp[i]);
+                k++;
+            }
+            else{
+                ans[mq[strs[i]]-1].push_back(mp[i]);
+            }
            
-           res.push_back(ans);
-       } 
-        return res;
+        }
+        return ans;
     }
 };
