@@ -38,6 +38,32 @@ public:
             }
         return min(dp[0][2],min(dp[0][1]+1,dp[0][3]+1));
     }
+    int solveSO(vector<int> &obs){
+        int n = obs.size()-1;
+         vector<int> curr(4,1e9);
+         vector<int> next(4,1e9);
+        next[0] = 0;
+        next[1] = 0;
+        next[2] = 0;
+        next[3] = 0;
+        
+        for(int i=n-1;i>=0;i--){
+                for(int j = 1;j<=3;j++){
+                    if(obs[i+1] != j) curr[j] = next[j];
+                    else{
+                        int k =1e9;
+                        for(int l=1;l<=3;l++){
+                            if(j != l && obs[i] != l){
+                                k = min(k, 1 + next[l]);  
+                            }
+                        }
+                        curr[j] = k;
+                    }
+                }
+            next = curr;
+            }
+        return min(curr[2],min(curr[1]+1,curr[3]+1));
+    }
     int minSideJumps(vector<int>& obstacles) {
         // int n = obstacles.size();
         // vector<vector<int>> dp(n+1,vector<int> (4,-1));
