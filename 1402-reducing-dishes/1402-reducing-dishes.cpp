@@ -9,11 +9,23 @@ public:
         int exc = solve(sat,i+1,time,dp);
         return dp[i][time] = max(inc,exc);
     }
+     int solveTab(vector<int> &sat){
+         int n = sat.size();
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+         for(int i = n-1;i>=0;i--){
+             for(int j=0;j<n;j++){
+                int inc = sat[i]*(j+1) + dp[i+1][j+1];
+                int exc = dp[i+1][j];
+                dp[i][j] = max(inc , exc);
+             }
+         }
+         return dp[0][0];
+    }
     
     int maxSatisfaction(vector<int>& satisfaction) {
         sort(satisfaction.begin(),satisfaction.end());
         int n = satisfaction.size();
         vector<vector<int>> dp(n+1,vector<int>(n+1,-1));
-         return solve(satisfaction,0,0, dp);
+         return solveTab(satisfaction);
     }
 };
