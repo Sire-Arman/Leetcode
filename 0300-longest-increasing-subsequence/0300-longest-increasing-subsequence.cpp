@@ -15,13 +15,16 @@ public:
     }
     int solveTab(vector<int>& nums){
         int n = nums.size();
-        vector<int> dp(n+1,1);
-        for(int i = 1;i<n;i++){
-            for(int ans=0;ans<i;ans++){
-                if(nums[i] > nums[ans]) { dp[i] = max(dp[i],dp[ans]+1);}
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        for(int i = n-1;i>=0;i--){
+            for(int ans=i-1;ans>=-1;ans--){
+                int inc = 0,exc =0;
+                if(ans == -1 || nums[i] > nums[ans]) { inc = 1 + dp[i+1][i+1];}
+                exc = dp[i+1][ans+1];
+                dp[i][ans+1] = max(inc,exc);
             }
         }            
-            return *max_element(dp.begin(),dp.end());
+            return dp[0][0];
     }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
