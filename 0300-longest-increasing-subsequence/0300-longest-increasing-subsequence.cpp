@@ -42,9 +42,25 @@ public:
         }            
             return curr[0];
     }
+    int binaryDP(vector<int>& nums){
+        int n =nums.size();
+        if(n == 0) return 0;
+        vector<int> ref;
+        ref.push_back(nums[0]);
+        for(int i=1;i<n;i++){
+            if(nums[i] > ref.back()){
+                ref.push_back(nums[i]);
+            }
+            else{
+                int ind = lower_bound(ref.begin(),ref.end(), nums[i]) - ref.begin();
+                ref[ind] = nums[i];
+            }
+        }
+        return ref.size();
+    }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> dp(n+1,vector<int>(n+1, -1));
-        return solveSO(nums);
+        return binaryDP(nums);
     }
 };
