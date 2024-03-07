@@ -26,9 +26,25 @@ public:
         }            
             return dp[0][0];
     }
+    int solveSO(vector<int>& nums){
+        int n = nums.size();
+        vector<int> curr(n+1,0);
+        vector<int> next(n+1,0);
+        // vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        for(int i = n-1;i>=0;i--){
+            for(int ans=i-1;ans>=-1;ans--){
+                int inc = 0,exc =0;
+                if(ans == -1 || nums[i] > nums[ans]) { inc = 1 + next[i+1];}
+                exc = next[ans+1];
+                curr[ans+1] = max(inc,exc);
+            }
+            next = curr;
+        }            
+            return curr[0];
+    }
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> dp(n+1,vector<int>(n+1, -1));
-        return solveTab(nums);
+        return solveSO(nums);
     }
 };
