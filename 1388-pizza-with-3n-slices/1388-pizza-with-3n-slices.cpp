@@ -11,17 +11,22 @@ public:
     }
     int solveTab(vector<int>& s, int st,int end){
         int t = s.size();
-        vector<vector<int>> dp(t+2,vector<int>(t+2,0));
+        // vector<vector<int>> dp(t+2,vector<int>(t+2,0));
+        vector<int> prev(t+2,0);
+        vector<int> curr(t+2,0);
+        vector<int> next(t+2,0);
         // t /=3;
         for(int i = end;i>=st;i--){
             for(int n = 1;n<=t/3;n++){
-                int tk = s[i] + dp[i+2][n-1];
+                int tk = s[i] + prev[n-1];
                 // int tk = 0;
-                int nt = dp[i+1][n];
-                dp[i][n] = max(nt,tk);
+                int nt = curr[n];
+                next[n] = max(nt,tk);
             }
+            prev = curr;
+            curr = next;
         }
-        return dp[st][t/3];
+        return next[t/3];
     }
     int maxSizeSlices(vector<int>& s) {
         int n = s.size();
