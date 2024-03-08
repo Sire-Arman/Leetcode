@@ -1,8 +1,7 @@
 class Solution {
 public:
-    bool check(vector<int> b, vector<int> a){
-        if (a[0] <= b[0] && a[1]<=b[1] && a[2]<=b[2]) return true;
-        else return false;
+    bool check(vector<int>& b, vector<int>& a){
+        return (a[0] <= b[0] && a[1]<=b[1] && a[2]<=b[2]) ;
     }
     int solveTab(vector<vector<int>> &cub){
         int n = cub.size();
