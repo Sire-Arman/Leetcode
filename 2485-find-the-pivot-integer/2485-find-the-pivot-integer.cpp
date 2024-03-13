@@ -1,20 +1,21 @@
 class Solution {
 public:
-    int pivotInteger(int n) {
-        int l = 1, r =n;
-        long long suml =0, sumr =0;
-        sumr = n*(n+1)/2;
-        int ans =-1;
-        while(l<=n){
-            suml = suml + l;
-        // cout<<suml<<' '<<sumr<<endl;
-            if(suml == sumr){
-                ans = l;
-                break;
-            }
-            sumr -= l;
-            l++;
+    bool isPerfectSquare(int x)
+    {
+        if (x >= 0) {
+            long long sr = sqrt(x);
+            return (sr * sr == x);
         }
-        return ans;
+        return false;
+    }
+    int pivotInteger(int n) {
+        long long sumr = n*(n+1)/2;
+        // cout<<sumr<<' '<<sqr<<endl;
+        
+        if(isPerfectSquare(4*sumr) ){
+             return sqrt(1+4*sumr)/2;
+            
+        }
+        else return -1;
     }
 };
