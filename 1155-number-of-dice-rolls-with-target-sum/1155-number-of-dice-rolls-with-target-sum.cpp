@@ -12,17 +12,22 @@ public:
         return dp[n][target] = ans;
     }
     int solveTab(int n, int k, int target){
-        vector<vector<int>> dp(n+1,vector<int> (target+1,0));
-        dp[0][0] = 1;
+        // vector<vector<int>> dp(n+1,vector<int> (target+1,0));
+        vector<int> prev(target+1,0);
+        vector<int> curr (target+1,0);
+        prev[0] = 1;
         for(int i = 1;i<=n;i++){
             for(int j=1;j<=target;j++){
+                int ans =0;
                 for(int x=1;x<=k;x++){
-                    if(j-x>=0) dp[i][j] = (dp[i][j] + dp[i-1][j-x])%MOD;
+                    if(j-x>=0) ans = (ans + prev[j-x])%MOD;
                 }
+                curr[j] = ans;
             }
+            prev = curr;
         }
         
-        return dp[n][target];
+        return prev[target];
     }
     int numRollsToTarget(int n, int k, int target) {
         // vector<vector<int>> dp(n+1,vector<int> (target+1,-1));
