@@ -12,20 +12,29 @@ public:
     }
     int solveTab(vector<int>& n1, vector<int>& n2){
         int n = n1.size();
-        vector<vector<int>> dp(n+1,vector<int> (2,0));
+        // vector<vector<int>> dp(n+1,vector<int> (2,0));
+        // vector<int> curr(2,0);
+        // vector<int> next (2,0);
+        int sp = 0, nsp =0;
+        int crswp =0,crnswp =0;
         for(int i = n-1;i>=1;i--){
             for(int swp = 1;swp>=0;swp--){
                 int ans = INT_MAX;
                 int p1 = n1[i-1];
                 int p2 = n2[i-1];
                 if(swp) swap(p1,p2);
-                if(n1[i] > p1 && n2[i] > p2) ans = dp[i+1][0];
-                if(n1[i] > p2 && n2[i]>p1)  ans = min(ans, 1+ dp[i+1][1]);
-                dp[i][swp] = ans;
-            }
+                if(n1[i] > p1 && n2[i] > p2) ans = nsp;
+                if(n1[i] > p2 && n2[i]>p1)  ans = min(ans, 1+ sp);
+                if(swp)
+                    crswp = ans;
+                else crnswp = ans;
+                }
+            sp = crswp;
+            nsp = crnswp;
         }
-        return dp[1][0];
+        return crnswp;
     }
+    
     int minSwap(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
         nums1.insert(nums1.begin(),-1);
