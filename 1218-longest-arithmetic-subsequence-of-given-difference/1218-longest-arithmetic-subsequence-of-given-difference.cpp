@@ -16,8 +16,8 @@ public:
                 temp  = dp[dif];
             }
             dp[arr[i]] = 1 + temp;
-            ans = max(ans,temp);
+            ans = max(ans,dp[arr[i]]);
         }
-        return ans+1;
+        return ans;
     }
 };
