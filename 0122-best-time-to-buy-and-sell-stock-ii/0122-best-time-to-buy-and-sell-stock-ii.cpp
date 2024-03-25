@@ -16,23 +16,27 @@ public:
     }
     int solveTab(vector<int> &arr){
         int n = arr.size();
-        vector<vector<int>> dp(n+1, vector<int> (2,0));
+        pair<int,int> curr = {0,0};
+        pair<int,int> prev = {0,0};
+//         vector<vector<int>> dp(n+1, vector<int> (2,0));
         
         for(int i = n-1;i>=0;i--){
             for(int j =0;j<=1;j++){
                     int ans = 0;
                     if(j){
-                        ans = max(ans, dp[i+1][0]-arr[i]);
-                        ans = max(ans, dp[i+1][1]);
+                        ans = max(ans, prev.first - arr[i]);
+                        ans = max(ans, prev.second);
                     }
                     else{
-                        ans = max(ans, arr[i] + dp[i+1][1]);
-                        ans = max(ans, dp[i+1][0]);
+                        ans = max(ans, arr[i] + prev.second);
+                        ans = max(ans, prev.first);
                     }
-                dp[i][j] = ans;
+                if(!j) curr.first = ans;
+                else curr.second = ans;
             }
+            prev = curr;
         }
-        return dp[0][1];
+        return curr.second;
     }
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
