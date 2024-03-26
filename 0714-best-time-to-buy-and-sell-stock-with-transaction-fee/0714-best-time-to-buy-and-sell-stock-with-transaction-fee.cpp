@@ -18,28 +18,26 @@ public:
         int n = arr.size();
         vector<int> curr(3,0);
         vector<int> prev(3,0);
-        
-        for(int i = n-1;i>=0;i--){
-            for(int on = 0;on<=1;on++){
-                int ans =0;
-                if(!(on&1)){
-                    ans = max(ans , prev[on+1]-arr[i]);
-                    ans = max(ans, prev[on]);
+        for(int i =n-1;i>=0;i--){
+            for(int j= 0;j<=1;j++){
+                int ans = 0;
+                if(j){
+                    ans = max(ans, prev[0]-arr[i]);
+                    ans = max(ans, prev[1]);
                 }
                 else{
-                    ans = max(ans, prev[on+1]+arr[i]-fee);
-                    ans = max(ans, prev[on]);
-                } 
-                curr[on] = ans;
+                    ans = max(ans, arr[i] + prev[1]-fee);
+                    ans = max(ans, prev[0]);
+                }
+                 curr[j] = ans;
             }
             prev = curr;
         }
-        
-        return curr[1] ;
+        return curr[1];
     }
     int maxProfit(vector<int>& prices, int fee) {
         int n = prices.size();
-        vector<vector<int>>dp(n+1,vector<int> (2,-1));
-        return solve(prices,0,true,fee,dp);
+        // vector<vector<int>>dp(n+1,vector<int> (2,-1));
+        return solveTab(prices,fee);
     }
 };
