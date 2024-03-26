@@ -60,7 +60,7 @@ public:
     // }
     int maxProfit(int k, vector<int>& prices) {
          int n = prices.size();
-        vector<vector<int>> dp(n+1,vector<int> (2*k,-1));
+        // vector<vector<int>> dp(n+1,vector<int> (2*k,-1));
         // vector<vector<vector<int>>> dp(n+1, vector<vector<int>> (2, vector<int> (k+1,-1)));
         return solveTab(prices, k);
     }
