@@ -21,22 +21,26 @@ public:
 //     Tabulation
     int solveTab(vector<int>& arr, int k){
         int n = arr.size();
-        vector<vector<int>> dp(n+1, vector<int> (2*k+1, 0));
+        vector<int> curr(2*k+1,0);
+        vector<int> prev(2*k+1,0);
+        
+        // vector<vector<int>> dp(n+1, vector<int> (2*k+1, 0));
         for(int i= n-1;i>= 0;i--){
             for(int on = 2*k-1;on>=0;on--){
                 int ans =0;
                 if(on&1){
-                    ans = max(ans, arr[i]+dp[i+1][on+1]);
-                    ans = max(ans, dp[i+1][on]);
+                    ans = max(ans, arr[i]+prev[on+1]);
+                    ans = max(ans, prev[on]);
                 }
                 else{
-                    ans = max(ans, dp[i+1][on+1]-arr[i]);
-                    ans = max(ans, dp[i+1][on]);
+                    ans = max(ans, prev[on+1]-arr[i]);
+                    ans = max(ans, prev[on]);
                 }
-                dp[i][on] = ans;
+                curr[on] = ans;
             }
+            prev = curr;
         }
-        return dp[0][0];
+        return curr[0];
         
     }
     
