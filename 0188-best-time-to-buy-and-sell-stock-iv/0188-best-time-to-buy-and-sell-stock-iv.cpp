@@ -18,6 +18,28 @@ public:
         return dp[i][on] = ans;
     }
     
+//     Tabulation
+    int solveTab(vector<int>& arr, int k){
+        int n = arr.size();
+        vector<vector<int>> dp(n+1, vector<int> (2*k+1, 0));
+        for(int i= n-1;i>= 0;i--){
+            for(int on = 2*k-1;on>=0;on--){
+                int ans =0;
+                if(on&1){
+                    ans = max(ans, arr[i]+dp[i+1][on+1]);
+                    ans = max(ans, dp[i+1][on]);
+                }
+                else{
+                    ans = max(ans, dp[i+1][on+1]-arr[i]);
+                    ans = max(ans, dp[i+1][on]);
+                }
+                dp[i][on] = ans;
+            }
+        }
+        return dp[0][0];
+        
+    }
+    
     // int solve(vector<int> &arr, int i, bool b, int lim, vector<vector<vector<int>>> &dp,int k){
     //     if(i == arr.size() || lim >= k ) return 0;
     //     if(dp[i][b][lim] != -1) return dp[i][b][lim];
@@ -36,6 +58,6 @@ public:
          int n = prices.size();
         vector<vector<int>> dp(n+1,vector<int> (2*k,-1));
         // vector<vector<vector<int>>> dp(n+1, vector<vector<int>> (2, vector<int> (k+1,-1)));
-        return solve(prices, 0,0,k,dp);
+        return solveTab(prices, k);
     }
 };
