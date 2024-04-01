@@ -24,33 +24,40 @@ public:
     }
     int solveTab(string& w1, string& w2){
         int a =  w1.length(), b=  w2.length();
+        if(a == 0) return b;
+        if(b==0) return a;
+        vector<int> curr (b+1,0);
+        vector<int> prev (b+1,0);
+            
         for(int i =0 ; i < b;i++){
-            dp[a][i] = b-i;
+           prev[i] = b-i;
         }
-        for(int i =0 ; i < a;i++){
-            dp[i][b] = a-i;
-        }
+        // for(int i =0 ; i < a;i++){
+        //     dp[i][b] = a-i;
+        // }
         for(int i=a-1;i>=0;i--){
             for(int j=b-1;j>=0;j--){
+                curr[b] = a-i;
+                // prev[b] = a-i-1;
                 int ans = 0;
                 if(w1[i] == w2[j]){
-                    ans = dp[i+1][j+1];
+                    ans = prev[j+1];
                 }
                 else{
-                    int ins = dp[i][j+1];
-                    int del = dp[i+1][j];
-                    int rep = dp[i+1][j+1];
+                    int ins = curr[j+1];
+                    int del = prev[j];
+                    int rep = prev[j+1];
                     ans = 1+min(ins, min(del,rep));
                 }
-                dp[i][j] = ans;
+                curr[j] = ans;
             }
+            prev = curr;
         }
         
-       return dp[0][0];
+       return prev[0];
         
     }
     int minDistance(string word1, string word2) {
-        
         // memset(dp,0, sizeof(dp));
         return solveTab(word1,word2);
     }
