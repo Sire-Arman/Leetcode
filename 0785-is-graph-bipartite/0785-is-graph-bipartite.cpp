@@ -12,6 +12,7 @@ public:
             if(vis[it] == -1) { 
                 vis[it] = !vis[node]; 
                 ans = ans && dfs(it,vis,graph);
+                if(!ans ) return ans;
             }
             else{
                 if(it != node && vis[it] == vis[node]) return false;
@@ -46,7 +47,6 @@ public:
         int n = graph.size();
         vector<int> vis(n,-1);
         for(int i=0;i<n;i++){
-            
             if(vis[i] == -1){
                 vis[i] = 0;
                 if(dfs(i,vis,graph) == false) return false;
