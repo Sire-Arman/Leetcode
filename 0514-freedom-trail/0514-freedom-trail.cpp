@@ -9,17 +9,13 @@ public:
         }
         int min_steps = INT_MAX;
         for (int i : positions[key[in_index]]) {
-            int steps;
-            if (i >= pos) {
-                steps = min(i - pos, static_cast<int>(pos + ring.size()) - i);
-            } else {
-                steps = min(pos - i, static_cast<int>(i + ring.size()) - pos);
-            }
+            int a = abs(pos-i);
+            int steps =  min(a, static_cast<int>(ring.size()- a));
             int next_steps = helper(in_index + 1, i, positions, key, ring, memo);
             min_steps = min(min_steps, steps + next_steps);
         }
-        memo[in_index][pos] = min_steps + 1;
-        return min_steps + 1;
+        
+        return memo[in_index][pos] = min_steps + 1;
     }
     int findRotateSteps(string ring, string key) {
         unordered_map<char,vector<int>> mp;
