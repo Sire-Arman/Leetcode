@@ -6,8 +6,8 @@ public:
         int x = -1;
         while(i<j){
             if(nums[i]>=0 || nums[j]<=0) break;
-            else if(-1*nums[i] > nums[j]) i++;
-            else if (-1* nums[i] < nums[j]) j--;
+            else if(~nums[i]+1 > nums[j]) i++;
+            else if (~nums[i]+1 < nums[j]) j--;
             else {x = nums[j]; break;}
         }
         return x;
