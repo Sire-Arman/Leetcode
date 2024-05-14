@@ -19,10 +19,10 @@ public:
         int m = grid[0].size();
         int ans = 0;
         
+                    vector<vector<int>> vis(n, vector<int>(m,0));
         for(int i=0;i<n;i++){
             for(int j =0;j<m;j++){
                 if(grid[i][j]){
-                    vector<vector<int>> vis(n, vector<int>(m,0));
                     ans = max(ans,solve(grid,vis,i,j));
                     // cout<<endl;
                 }
