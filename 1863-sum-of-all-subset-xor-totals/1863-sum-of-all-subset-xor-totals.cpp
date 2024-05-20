@@ -10,8 +10,23 @@ public:
         return ans1+ans2;
     }
     int subsetXORSum(vector<int>& nums) {
-       return solve(nums,0,0);
-        
+        int x =0;
+       for(auto it : nums){
+           x = x|it;
+       } 
+        int n = pow(2,nums.size()-1);
+        // // cout<<x;
+        // int s = static_cast<int>(ceil(log2(x)));
+        // // cout<<s;
+        // int d =0,sum=0;
+        // while(s--){
+        //     if(x>>1){
+        //         sum += pow(2,d);
+        //     };
+        //     d++;
+        //     // x = x>>1;
+        // }
+        return x*n;
         
     }
 };
