@@ -1,25 +1,20 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        if(nums.size() == 2){
-            return nums;
+       int x=0;
+        for(int i=0;i<nums.size();i++){
+            x = x^nums[i];
         }
-        vector<int> ans;
-       map<int,int> mp;
+        int i=0,A=0,B=0;
+        while(((x>>i)&1)==0)i++;
         for(auto it : nums){
-            if(mp[it]){
-                mp[it]--;
-            }
-            else{
-                mp[it]++;
-            }
-        }
-        for(auto it : mp){
-            if(it.second){
-                ans.push_back(it.first);
+            if(((it>>i)&1)==0){
+                A^=it;
+            }else{
+                B^=it;
             }
         }
-return ans;
+        return {A,B};
         
     }
 };
