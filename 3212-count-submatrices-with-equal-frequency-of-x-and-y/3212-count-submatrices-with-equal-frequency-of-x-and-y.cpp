@@ -75,7 +75,7 @@ public:
                 totalfreq.first += diag[c].first;
                 totalfreq.second += diag[c].second;
             }
-           cout<<totalfreq.first<<' '<<totalfreq.second<<endl;
+           // cout<<totalfreq.first<<' '<<totalfreq.second<<endl;
             if(totalfreq.first == totalfreq.second && totalfreq.first>=1) res++;
         }
          int rows = grid.size();
