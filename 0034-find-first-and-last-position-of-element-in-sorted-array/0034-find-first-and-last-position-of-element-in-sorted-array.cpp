@@ -1,67 +1,46 @@
 class Solution {
 public:
-   int first(vector<int>& nums, int target ){
-       int mini = -1;
-        int st =0,end = nums.size()-1;
-        while(st<=end){
-          int mid = st + (end-st)/2;
-            if(nums[mid] == target){
-            if(mid == 0 || nums[mid-1]!= target){
-                mini = mid;
-                break;
+    int f(int t, vector<int>& nums){
+        if(nums.size()==1){
+            if(t==nums[0]) return 0;
+            return -1;
+        }
+        int f = -1;
+        int l=0,r = nums.size()-1;
+        while(l<=r){
+            int mid = l + (r-l)/2;
+            if(nums[mid]==t){
+                f = mid;
             }
-                else{
-                   end = mid-1; 
-                }
-        }
-        else if(nums[mid]>target){
-            end = mid-1;
-        }
-        else{
-            st = mid+1;
-        }
-            
-        }
-        
-     return mini;   
-    }
-    int last(vector<int>& nums, int target ){
-       int maxi = -1;
-        int st =0,end = nums.size()-1;
-        while(st<=end){
-          int mid = st + (end-st)/2;
-            if(nums[mid] == target){
-            if(mid == nums.size()-1 || nums[mid+1]!= target){
-                maxi = mid;
-                break;
+            if(nums[mid]>= t){
+                r = mid-1;
             }
-                else{
-                   st = mid+1; 
-                }
+            else l = mid +1;
         }
-        else if(nums[mid]>target){
-            end = mid-1;
-        }
-        else{
-            st = mid+1;
-        }
-            
-        }
+        return f;
         
-     return maxi;   
     }
-    vector<int> searchRange(vector<int>& nums, int target) {
-        if(nums.size()==0){
-            return {-1,-1};
+    int l(int t, vector<int>& nums){
+        if(nums.size()==1){
+            if(t==nums[0]) return 0;
+            return -1;
         }
-        int st =0,end = nums.size()-1;
-        int mini = first(nums, target);
-        int maxi = last(nums, target);
+        int f = -1;
+        int l=0,r = nums.size()-1;
+        while(l<=r){
+            int mid = l + (r-l)/2;
+            if(nums[mid]==t){
+                f = mid;
+            }
+            if(nums[mid]<= t){
+                l= mid+1;
+            }
+            else r = mid-1;
+        }
+        return f;
         
-        
-        vector<int> ans(2);
-        ans[0] = mini;
-        ans[1] = maxi;
-        return ans;
+    }
+    vector<int> searchRange(vector<int>& nums, int t) {
+        return {f(t,nums), l(t,nums)};
     }
 };
