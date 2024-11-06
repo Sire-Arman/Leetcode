@@ -16,9 +16,7 @@ public:
         }
         ListNode* temp = head;
         while(temp->next != NULL){
-            int val1 = temp->val;
-            int val2 = temp->next->val;
-            ListNode* node = new ListNode(__gcd(val1,val2));
+          ListNode* node = new ListNode(__gcd(temp->val, temp->next->val));
             node->next = temp->next;
             temp->next = node;
             temp = node->next;
