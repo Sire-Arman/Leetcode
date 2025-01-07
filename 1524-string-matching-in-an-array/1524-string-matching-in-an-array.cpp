@@ -56,13 +56,14 @@ static bool cmp(string& a, string &b){
     return a.size()<b.size();
 }
     vector<string> stringMatching(vector<string>& words) {
-        sort(words.begin(),words.end(),cmp);
+        // sort(words.begin(),words.end(),cmp);
         vector<string> ans;
         for(int i=0;i<words.size();i++){
             string p = words[i];
             // cout<<p<<endl;
-            for(int j=i+1;j<words.size();j++){
+            for(int j=0;j<words.size();j++){
                 string t = words[j];
+                if(i==j || t.size()<p.size()) continue;
                 if(KMP(t,p) != -1) {ans.push_back(p);break;}
             }
         }
