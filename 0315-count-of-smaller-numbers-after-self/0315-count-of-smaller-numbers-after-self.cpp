@@ -1,35 +1,31 @@
+vector<int>bit;
 int n;
-vector<int> bit;
 void update(int id, int val){
-    while(id<(1e4*2+1)){
-        bit[id]+=val;
-        id = id | (id+1);
+    for(;id<=n;id += (id&-id)){
+        bit[id] += val;
     }
 }
 int query(int id){
-    int ans =0;
-    while(id>=0){
-        ans += bit[id];
-        id = (id & (id+1))-1;
+    int sum =0;
+    for(;id>0;id -= (id&-id)){
+        sum += bit[id];
     }
-    return ans;
+    return sum;
 }
 class Solution {
 public:
-
     vector<int> countSmaller(vector<int>& nums) {
-        n = nums.size();
-        vector<int> ans(n);
-        bit = vector<int>(1e4*2+1,0);
-        for(auto it : nums){
-            update(it+1e4,1);
-        }
+        n = 2*1e4;
+        bit = vector<int>(n+1,0);
+        vector<int> ans(nums.size());
         int i=0;
-        for(int it : nums){
-            ans[i++] = query(it-1+1e4);
-            update(it+1e4,-1);
+        for(auto &it : nums){
+            update(it+1e4+1,1);
+        }
+        for(auto &it:nums){
+            ans[i++] = query(it+1e4);
+            update(it+1e4+1,-1);
         }
         return ans;
-
     }
 };
