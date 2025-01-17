@@ -1,11 +1,7 @@
 class Solution {
 public:
     bool doesValidArrayExist(vector<int>& d) {
-        int n=d.size();
-        bool ans = 0;
-        for(int i=0;i<n;i++){
-           ans = ans^d[i];
-        }
-        return !ans;
+        // cout<<count(d.begin(),d.end(),1)<<endl;
+       return !(count(d.begin(),d.end(),1)&1);
     }
 };
