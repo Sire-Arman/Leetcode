@@ -15,19 +15,7 @@ public:
             curr = next;
         }
         if(st != curr) ans = false;
-        st =1,curr=1,next =0;
-         for(int i=0;i<n;i++){
-            if(d[i]==1){
-                next = !curr;
-            }
-            else{
-                next = curr;
-            }
-            curr = next;
-        }
-        if(st != curr) ans = false;
+
         return ans;
-
-
     }
 };
