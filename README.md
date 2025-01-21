@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Sire-Arman/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Sire-Arman/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/Sire-Arman/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Sire-Arman/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Sire-Arman/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sire-Arman/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/Sire-Arman/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Sire-Arman/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Sire-Arman/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -158,5 +160,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Sire-Arman/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 <!---LeetCode Topics End-->
