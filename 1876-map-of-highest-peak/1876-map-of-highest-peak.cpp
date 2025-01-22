@@ -1,56 +1,57 @@
 class Solution {
-public:
+    //this array is created to generate neighbour indexes
     int dx[4] = {-1,0,1,0};
     int dy[4] = {0,-1,0,1};
-    bool isSafe(vector<vector<int>> w, int r ,int c){
-        if(r<0 || c<0 || r==w.size() || c == w[0].size() || w[r][c] > 0 || w[r][c] == INT_MIN){
+
+    //check if the indes is valid or not, also check if it not a water cell and not visited height will zero at that index
+    bool isSafe(vector<vector<int>>& isWater, int r, int c, vector<vector<int>>& heights){
+        if(r < 0 || c < 0 || r == isWater.size() || c == isWater[0].size() || isWater[r][c] == 1 || heights[r][c] > 0){
             return false;
         }
-        return 1;
+        return true;
     }
-    void dfs(vector<vector<int>> &w, queue<pair<int,int>> &q){
-        while(!q.empty()){
+
+    void bfs(vector<vector<int>>& isWater, vector<vector<int>>& heights, queue<pair<int,int>>& q){
+        while(q.size() != 0){
             int size = q.size();
             while(size--){
                 int i = q.front().first;
                 int j = q.front().second;
                 q.pop();
-                if(w[i][j] == INT_MIN) continue;
-                int height = w[i][j];
-                for(int t =0;t<4;t++){
-                    int a = i+dx[t];
-                    int b = j+dy[t];
-                    if(isSafe(w,a,b)){
-                        w[a][b] = height+1;
-                        q.push({a,b});
+
+                int height = heights[i][j];
+
+                //generating neighbour indexes
+                for(int b = 0; b < 4; b++){
+                    int nI = i + dx[b];
+                    int nJ = j + dy[b];
+
+                    if(isSafe(isWater,nI,nJ,heights)){
+                        heights[nI][nJ] = height + 1;
+                        q.push({nI,nJ});
                     }
-                    
                 }
             }
-                
         }
     }
-    
-    vector<vector<int>> highestPeak(vector<vector<int>>& w) {
-        int r = w.size();
-        int c = w[0].size();
+public:
+    vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
+        int m = isWater.size();
+        int n = isWater[0].size();
+
+        vector<vector<int>> heights(m,vector<int>(n,0));
         queue<pair<int,int>> q;
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(w[i][j] == 1){
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(isWater[i][j] == 1){
                     q.push({i,j});
-                    w[i][j] = INT_MIN;
                 }
             }
         }
-        dfs(w,q);
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(w[i][j] == INT_MIN){
-                    w[i][j] = 0;
-                }
-            }
-        }
-        return w;
+
+        bfs(isWater,heights,q);
+
+        return heights;
     }
 };
