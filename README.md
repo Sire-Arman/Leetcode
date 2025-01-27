@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
 | [3350-distribute-elements-into-two-arrays-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3350-distribute-elements-into-two-arrays-ii) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Prefix Sum
 |  |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/Sire-Arman/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Sire-Arman/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Hash Table
 |  |
@@ -194,4 +196,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+## Math
+|  |
+| ------- |
+| [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 <!---LeetCode Topics End-->
