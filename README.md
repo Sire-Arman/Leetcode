@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3350-distribute-elements-into-two-arrays-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3350-distribute-elements-into-two-arrays-ii) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
+| [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0406-queue-reconstruction-by-height](https://github.com/Sire-Arman/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
+| [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
 ## String Matching
 |  |
 | ------- |
@@ -154,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [3350-distribute-elements-into-two-arrays-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3350-distribute-elements-into-two-arrays-ii) |
+| [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
 ## Stack
 |  |
 | ------- |
@@ -200,4 +203,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
+| [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
 <!---LeetCode Topics End-->
