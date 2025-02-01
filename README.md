@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
 | [3350-distribute-elements-into-two-arrays-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3350-distribute-elements-into-two-arrays-ii) |
+| [3429-special-array-i](https://github.com/Sire-Arman/Leetcode/tree/master/3429-special-array-i) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
