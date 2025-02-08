@@ -8,7 +8,8 @@ map<int,int> idx;
     
     void change(int index, int number) {
         if(idx[index]){
-            auto &a = mp[idx[index]];
+            if(number == idx[index]) return;
+            auto &a = mp[idx[index]]; 
             if(a.size()) {
                 a.erase(index);
                 }
