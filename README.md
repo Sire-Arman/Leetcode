@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/Sire-Arman/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Sire-Arman/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3447-clear-digits](https://github.com/Sire-Arman/Leetcode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Sire-Arman/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Dynamic Programming
 |  |
@@ -169,11 +170,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [3350-distribute-elements-into-two-arrays-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3350-distribute-elements-into-two-arrays-ii) |
+| [3447-clear-digits](https://github.com/Sire-Arman/Leetcode/tree/master/3447-clear-digits) |
 | [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
 ## Stack
 |  |
 | ------- |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Sire-Arman/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [3447-clear-digits](https://github.com/Sire-Arman/Leetcode/tree/master/3447-clear-digits) |
 ## Brainteaser
 |  |
 | ------- |
