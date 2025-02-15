@@ -7,7 +7,7 @@ bool sumCheck(int t, int num){
     bool ans = false;
     while((temp*10)/div){
         int rem = temp%div;
-        ans = ans || sumCheck(t-rem,temp/div);
+        if (sumCheck(t-rem,temp/div)) return true;
         div*=10;
     }
     return ans;
