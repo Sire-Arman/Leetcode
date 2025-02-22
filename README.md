@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sire-Arman/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sire-Arman/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0684-redundant-connection](https://github.com/Sire-Arman/Leetcode/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Sire-Arman/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1558-course-schedule-iv](https://github.com/Sire-Arman/Leetcode/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sire-Arman/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -275,4 +277,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/Sire-Arman/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sire-Arman/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Sire-Arman/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+## Tree
+|  |
+| ------- |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
