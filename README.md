@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/Sire-Arman/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sire-Arman/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sire-Arman/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sire-Arman/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sire-Arman/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sire-Arman/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sire-Arman/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sire-Arman/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Sorting
 |  |
