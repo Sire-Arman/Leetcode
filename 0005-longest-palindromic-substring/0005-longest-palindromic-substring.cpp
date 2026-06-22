@@ -1,7 +1,7 @@
 class Solution {
 public:
 string expand(int l, int r, string s){
-    while(l>=0 && r <s.size() && s[l] == s[r]){
+    while(l>=0 && r<s.size() && s[l] == s[r]){
         l--;
         r++;
     }
@@ -9,18 +9,12 @@ string expand(int l, int r, string s){
 }
     string longestPalindrome(string s) {
         int n = s.size();
-        if(n<=1) return s;
-        
         string ans = "";
-        for(int i=0;i<n-1;i++){
+        for(int i =0;i<s.size();i++){
             string odd = expand(i,i,s);
             string even = expand(i,i+1,s);
-            if(ans.length()< odd.length()){
-                ans = odd;
-            }
-            if(ans.length() < even.length()){
-                ans = even;
-            }
+            if(odd.size()>ans.size()) ans = odd;
+            if(even.size()>ans.size()) ans = even;
         }
         return ans;
     }
