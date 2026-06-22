@@ -2,7 +2,7 @@ class Solution {
 public:
     int recursion(int n, int k, int i){
         if(i> n+k) return 0;
-        int ans = (i>0 && (n&i) == 0)?i:0;
+        int ans = ((n&i) == 0)?i:0;
         return ans + recursion(n,k,i+1);
     }
     int sumOfGoodIntegers(int n, int k) {
@@ -13,6 +13,6 @@ public:
         //     }
         // }
         // return ans;
-        return recursion(n,k,n-k);
+        return recursion(n,k,max(n-k,1));
     }
 };
