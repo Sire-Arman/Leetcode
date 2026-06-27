@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sire-Arman/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sire-Arman/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/Sire-Arman/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sire-Arman/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Sire-Arman/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sire-Arman/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0406-queue-reconstruction-by-height](https://github.com/Sire-Arman/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
+| [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sire-Arman/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3430-count-days-without-meetings](https://github.com/Sire-Arman/Leetcode/tree/master/3430-count-days-without-meetings) |
@@ -341,4 +344,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
+## Counting Sort
+|  |
+| ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 <!---LeetCode Topics End-->
