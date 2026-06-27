@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Sire-Arman/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2848-points-that-intersect-with-cars](https://github.com/Sire-Arman/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/Sire-Arman/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Sire-Arman/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2848-points-that-intersect-with-cars](https://github.com/Sire-Arman/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Sire-Arman/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
 |  |
@@ -337,5 +339,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 <!---LeetCode Topics End-->
