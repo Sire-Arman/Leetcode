@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Sire-Arman/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2848-points-that-intersect-with-cars](https://github.com/Sire-Arman/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Greedy
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Sire-Arman/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -256,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1876-map-of-highest-peak](https://github.com/Sire-Arman/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Sire-Arman/Leetcode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -309,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Sire-Arman/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sire-Arman/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Data Stream
 |  |
@@ -348,4 +353,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
