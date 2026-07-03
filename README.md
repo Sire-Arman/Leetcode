@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1668-maximum-repeating-substring](https://github.com/Sire-Arman/Leetcode/tree/master/1668-maximum-repeating-substring) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sire-Arman/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 ## Array
 |  |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3429-special-array-i](https://github.com/Sire-Arman/Leetcode/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/Sire-Arman/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 | [3721-count-mentions-per-user](https://github.com/Sire-Arman/Leetcode/tree/master/3721-count-mentions-per-user) |
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Greedy
 |  |
@@ -290,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/Sire-Arman/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/Sire-Arman/Leetcode/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sire-Arman/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Union Find
 |  |
 | ------- |
@@ -321,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Data Stream
 |  |
 | ------- |
@@ -368,8 +373,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->
