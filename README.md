@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sire-Arman/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sire-Arman/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sire-Arman/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/Sire-Arman/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Sire-Arman/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -266,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sire-Arman/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sire-Arman/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Sire-Arman/Leetcode/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/Sire-Arman/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sire-Arman/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Sire-Arman/Leetcode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -283,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sire-Arman/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sire-Arman/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Sire-Arman/Leetcode/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sire-Arman/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sire-Arman/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -330,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/Sire-Arman/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sire-Arman/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -378,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sire-Arman/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Graph Theory
