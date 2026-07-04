@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sire-Arman/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/Sire-Arman/Leetcode/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2434-design-a-number-container-system](https://github.com/Sire-Arman/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sire-Arman/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -382,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sire-Arman/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -389,6 +392,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->
