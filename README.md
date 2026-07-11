@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Sire-Arman/Leetcode/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sire-Arman/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sire-Arman/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Sire-Arman/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3313-maximum-strength-of-k-disjoint-subarrays](https://github.com/Sire-Arman/Leetcode/tree/master/3313-maximum-strength-of-k-disjoint-subarrays) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2792-neighboring-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2848-points-that-intersect-with-cars](https://github.com/Sire-Arman/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
+| [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Sire-Arman/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
