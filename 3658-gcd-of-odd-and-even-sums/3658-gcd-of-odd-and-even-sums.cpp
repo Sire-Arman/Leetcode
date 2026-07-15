@@ -4,13 +4,9 @@ public:
         return b==0?a:gcd(b,a%b);
     }
     int gcdOfOddEvenSums(int n) {
-        int i =1,odd=0,even=0;
-        while(n--){
-            odd +=i;
-            i++;
-            even+=i;
-            i++;
-        }
+        int odd = (n*(2*1+(n-1)*2))/2;
+        int even = (n*(2*2+(n-1)*2))/2;
+        cout<<odd<<' '<<even;
         return gcd(odd,even);
     }
 };
