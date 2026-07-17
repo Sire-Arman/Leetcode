@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sire-Arman/Leetcode/tree/master/0146-lru-cache) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sire-Arman/Leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sire-Arman/Leetcode/tree/master/0146-lru-cache) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sire-Arman/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/Sire-Arman/Leetcode/tree/master/2434-design-a-number-container-system) |
@@ -425,4 +427,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sire-Arman/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Sire-Arman/Leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Sire-Arman/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
