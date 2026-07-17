@@ -11,7 +11,7 @@ public:
     int get(int key) {
         if (mp.count(key)) {
             dq.push_back(key);
-            mp[dq.back()].second++;
+            mp[key].second++;
 
             while (mp.size() > c) {
                 mp[dq.front()].second--;
