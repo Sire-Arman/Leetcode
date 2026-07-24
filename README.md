@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3430-count-days-without-meetings](https://github.com/Sire-Arman/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sire-Arman/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Sire-Arman/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 ## Binary Search
 |  |
@@ -340,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sire-Arman/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sire-Arman/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Sire-Arman/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Sire-Arman/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sire-Arman/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sire-Arman/Leetcode/tree/master/3704-count-partitions-with-even-sum-difference) |
@@ -399,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Sire-Arman/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 ## Counting Sort
 |  |
