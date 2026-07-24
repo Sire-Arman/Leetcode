@@ -1,150 +1,121 @@
 class SegTree{
-    public: 
-    int n,maxLog;
-    string s;
-    vector<vector<int>> a;
-    SegTree(string s){
-        this->s = s;
-        n = s.size();
-        maxLog = log2(n);
-        a.assign(n,vector<int>(maxLog+1));
-        for(int i=0;i<n;i++){
-            a[i][0] = s[i]-'0';
-        }    
+    public:
+    int n;
+    vector<int> st;
+    SegTree(vector<int> pairs){
+        n = pairs.size();
+        st.assign(4*max(n,1),0);          // avoid a zero-size tree
+        if(n>0) build(pairs,1,0,n-1);
     }
-    void preprocess(){
-        for(int j =1;j<=maxLog;j++){
-            for(int i =0;i+(1<<j)-1<n;i++){
-                a[i][j] = max(a[i][j-1],countActiveInRange(i+(1<<(j-1)),j-1));
-            }
-        }
+    int build(vector<int>& pairs,int node, int l, int r){
+        if(l==r) return st[node]=pairs[l];
+        int mid = l+(r-l)/2;
+        int lc = build(pairs,node*2,l,mid);
+        int rc = build(pairs,node*2+1,mid+1,r);
+        return st[node] = max(lc,rc);
     }
-    long long query(int l, int r){
-        int len = r-l+1;
-        int j =0;
-        while((1<<(j+1))<=len) j++;
-        return max(a[l][j],a[r-(1<<j)+1][j]);
+    int query(int node, int l, int r, int ql, int qr){
+        if(ql>qr) return 0;
+        if(qr<l || r<ql) return 0;
+        if(l>=ql && r<=qr) return st[node];
+        int mid = l+(r-l)/2;
+        int lc = query(node*2,l,mid,ql,qr);
+        int rc = query(node*2+1,mid+1,r,ql,qr);
+        return max(lc,rc);
     }
-    int countActiveInRange(int l, int r){
-        int i =l;
-        int prev=INT_MIN;
-        int maxi =0;
-        int ans =0;
-        while(i<=r){
-            int j = i+1;
-            while(j<=r && s[i]==s[j]) j++;
-            int cur = j-i;
-            if(s[i]=='1'){
-                ans +=cur;
-            }
-            else{
-                maxi = max(prev+cur,maxi);
-                prev=cur;
-            }
-            i=j;
-        }
-        return ans+maxi;
-    } 
 };
 class Solution {
 public:
+    int binarySearchLeft(int t, vector<int>& ends){
+        int l=0,r=ends.size()-1;
+        while(l<=r){
+            int mid = l + (r-l)/2;
+            if(t == ends[mid]) return mid;
+            else if(t<= ends[mid]){
+                r = mid;
+            }
+            else l = mid+1;
+        }
+        return l;
+    }
+    int binarySearchRight(int t, vector<int>& starts){
+        int l =0,r = starts.size()-1;
+         while(l<=r){
+            int mid = l + (r-l)/2;
+            if(t == starts[mid]) return mid;
+            else if(t<= starts[mid]){
+                r = mid;
+            }
+            else l = mid+1;
+        }
+        return r;
+    }
+    int idxAt(int pos, vector<pair<int,int>>& zeroes){
+        int lo=0, hi=(int)zeroes.size()-1, res=-1;
+        while(lo<=hi){
+            int mid = lo+(hi-lo)/2;
+            if(zeroes[mid].first <= pos){ res=mid; lo=mid+1; }
+            else hi=mid-1;
+        }
+        return res;
+    }
     vector<int> maxActiveSectionsAfterTrade(string s, vector<vector<int>>& queries) {
-        int n = s.size();
-        // 1. Prefix sums for counting '1's in O(1)
-        vector<int> pref1(n + 1, 0);
-        for (int i = 0; i < n; i++) {
-            pref1[i + 1] = pref1[i] + (s[i] == '1' ? 1 : 0);
-        }
-        int totalOnesFull = pref1[n];               // <-- NEW: ones in the whole string
-        // 2. Identify all zero-blocks
-        vector<int> blockId(n, -1);
-        vector<int> startIdx, endIdx, L;
-        for (int i = 0; i < n; ) {
-            if (s[i] == '0') {
-                int j = i;
-                while (j < n && s[j] == '0') j++;
-                int bId = startIdx.size();
-                startIdx.push_back(i);
-                endIdx.push_back(j - 1);
-                L.push_back(j - i);
-                for (int k = i; k < j; k++) blockId[k] = bId;
-                i = j;
-            } else {
-                i++;
-            }
-        }
-        int M = startIdx.size();
-        // 3. Map positions to nearest zero-block IDs
-        vector<int> nextBlockId(n, M);
-        vector<int> prevBlockId(n, -1);
-        int curr = M;
-        for (int i = n - 1; i >= 0; i--) {
-            if (s[i] == '0') curr = blockId[i];
-            nextBlockId[i] = curr;
-        }
-        curr = -1;
-        for (int i = 0; i < n; i++) {
-            if (s[i] == '0') curr = blockId[i];
-            prevBlockId[i] = curr;
-        }
-        // 4. Sparse Table over adjacent zero-block sums: V[i] = L[i] + L[i+1]
-        int K = (M >= 2 ? M - 1 : 0);
-        vector<int> lg;
-        vector<vector<int>> st;
-        if (K > 0) {
-            lg.assign(K + 1, 0);
-            for (int i = 2; i <= K; i++) lg[i] = lg[i / 2] + 1;
-            int maxLog = lg[K];
-            st.assign(maxLog + 1, vector<int>(K));
-            for (int i = 0; i < K; i++) {
-                st[0][i] = L[i] + L[i + 1];
-            }
-            for (int j = 1; j <= maxLog; j++) {
-                for (int i = 0; i + (1 << j) <= K; i++) {
-                    st[j][i] = max(st[j - 1][i], st[j - 1][i + (1 << (j - 1))]);
-                }
-            }
-        }
-        auto queryV = [&](int l, int r) {
-            int j = lg[r - l + 1];
-            return max(st[j][l], st[j][r - (1 << j) + 1]);
-        };
-        // 5. Process range queries
+        int n = s.size(),prev=0,cur=0,ones=0;
         vector<int> ans;
-        ans.reserve(queries.size());
-        for (auto& q : queries) {
-            int l = q[0], r = q[1];
-            int totalOnes = pref1[r + 1] - pref1[l];
-            int outsideOnes = totalOnesFull - totalOnes;   // <-- NEW: ones outside [l, r]
-            int first = (s[l] == '0' ? blockId[l] : nextBlockId[l]);
-            int last  = (s[r] == '0' ? blockId[r] : prevBlockId[r]);
-            // Case A: 0 zero-blocks inside range -> whole range already active
-            if (first == -1 || first >= M || first > last) {
-                ans.push_back((r - l + 1) + outsideOnes);
-                continue;
+        vector<int> prefix(n+1,0);
+        vector<pair<int,int>> zeroes;
+        vector<int> starts,ends;
+        vector<int> pairs;
+        for(int i=0;i<n;){
+            if(s[i]=='0'){
+                int j=i;
+                while(j<n && s[j]=='0') j++;
+                zeroes.push_back({i,j-1});
+                i=j;
+            } else { ones++; i++; }
+        }
+
+        for(int k=0;k+1<(int)zeroes.size();k++){
+            int len1 = zeroes[k].second - zeroes[k].first + 1;
+            int len2 = zeroes[k+1].second - zeroes[k+1].first + 1;
+            pairs.push_back(len1+len2);
+        }
+        if(zeroes.empty()){ ans.assign(queries.size(), ones); return ans; }
+        for(auto [s,e] : zeroes){
+            starts.push_back(s);
+            ends.push_back(e);
+        }
+        if(prev && cur) pairs.push_back(prev+cur);
+        SegTree sg(pairs);
+        for(auto& q : queries){
+            int l=q[0], r=q[1];
+            int gl = idxAt(l, zeroes);
+            int gr = idxAt(r, zeroes);
+
+            int left  = (gl==-1) ? -1 : (zeroes[gl].second - l + 1);
+            int right = (gr==-1) ? -1 : (r - zeroes[gr].first + 1);
+
+            int startAdj = gl + 1;
+            int Bend     = (s[r]=='1') ? gr : gr - 1;   // last fully-interior run index
+            int endAdj   = Bend - 1;                    // last usable pair index
+
+            int best = ones;
+
+            if(s[l]=='0' && s[r]=='0' && gl+1==gr){
+                best = max(best, ones + left + right);
+            } else if(startAdj <= endAdj && startAdj>=0 && endAdj<(int)pairs.size()){
+                best = max(best, ones + sg.query(1,0,(int)pairs.size()-1,startAdj,endAdj));
             }
-            // Case B: Exactly 1 zero-block inside range -> NO valid trade possible
-            // (a trade needs a '1'-block sandwiched between two '0'-blocks to convert away),
-            // so the best we can do is keep the ones that are already there.
-            if (first == last) {
-                ans.push_back(totalOnes + outsideOnes);      // <-- FIXED (was r - l + 1)
-                continue;
+            if(s[l]=='0' && gl+1 < (int)zeroes.size() && gl+1 <= Bend){
+                int nextLen = zeroes[gl+1].second - zeroes[gl+1].first + 1;
+                best = max(best, ones + left + nextLen);
             }
-            // Case C: 2 or more zero-blocks
-            int L_first_prime = endIdx[first] - max(startIdx[first], l) + 1;
-            int L_last_prime  = min(endIdx[last], r) - startIdx[last] + 1;
-            int maxGain = 0;
-            if (last == first + 1) {
-                maxGain = L_first_prime + L_last_prime;
-            } else {
-                // Check boundary pairs
-                maxGain = max(L_first_prime + L[first + 1], L[last - 1] + L_last_prime);
-                // Check interior fully-contained adjacent pairs via Sparse Table
-                if (last - 2 >= first + 1) {
-                    maxGain = max(maxGain, queryV(first + 1, last - 2));
-                }
+            if(s[r]=='0' && gr-1 >= 0 && gl < gr-1){
+                int prevLen = zeroes[gr-1].second - zeroes[gr-1].first + 1;
+                best = max(best, ones + right + prevLen);
             }
-            ans.push_back(totalOnes + maxGain + outsideOnes);   // <-- FIXED (added outsideOnes)
+
+            ans.push_back(best);
         }
         return ans;
     }
