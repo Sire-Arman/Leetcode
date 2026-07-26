@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sire-Arman/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sire-Arman/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 ## Binary Indexed Tree
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sire-Arman/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Ordered Set
 |  |
@@ -362,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sire-Arman/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -448,6 +451,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sire-Arman/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/Sire-Arman/Leetcode/tree/master/0146-lru-cache) |
 ## Doubly-Linked List
 |  |
