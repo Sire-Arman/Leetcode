@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sire-Arman/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sire-Arman/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1524-string-matching-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0406-queue-reconstruction-by-height](https://github.com/Sire-Arman/Leetcode/tree/master/0406-queue-reconstruction-by-height) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sire-Arman/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Sire-Arman/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0743-network-delay-time](https://github.com/Sire-Arman/Leetcode/tree/master/0743-network-delay-time) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Sire-Arman/Leetcode/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
