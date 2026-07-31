@@ -1,29 +1,18 @@
 class Solution {
 public:
-    static bool const cmp(int&a , int &b){
-        return a>b;
-    }
     int minimumPushes(string word) {
-        map<char,int> mp;
-        for(auto it : word){
-            mp[it]++;
+        int n = word.size();
+        int cnt = 0,ans=0;
+        vector<int> mp(26,0);
+        for(auto it: word){
+            mp[it-'a']++;
         }
-        int n = mp.size();
-        vector<int> check(n);
-        int k=0;
-        for(auto it :mp){
-            check[k++] = it.second;
-        }
-        sort(check.begin(),check.end(),cmp);
-        int i =1,j=1;
-        int ans =0;
-        for(auto it : check){
-            ans  += i*it;
-            j++;
-             if(j>8){
-                i++;
-                j=1;
-            }
+        sort(mp.begin(),mp.end());
+        int i = 25;
+        while(i>=0){
+            ans += mp[i]*(cnt/8+1);
+            i--;
+            cnt++;
         }
         return ans;
     }
