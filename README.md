@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/Sire-Arman/Leetcode/tree/master/0022-generate-parentheses) |
 | [0486-predict-the-winner](https://github.com/Sire-Arman/Leetcode/tree/master/0486-predict-the-winner) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sire-Arman/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1668-maximum-repeating-substring](https://github.com/Sire-Arman/Leetcode/tree/master/1668-maximum-repeating-substring) |
 | [1786-number-of-restricted-paths-from-first-to-last-node](https://github.com/Sire-Arman/Leetcode/tree/master/1786-number-of-restricted-paths-from-first-to-last-node) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/Sire-Arman/Leetcode/tree/master/0952-word-subsets) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sire-Arman/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sire-Arman/Leetcode/tree/master/1301-number-of-paths-with-max-score) |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sire-Arman/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1514-path-with-maximum-probability](https://github.com/Sire-Arman/Leetcode/tree/master/1514-path-with-maximum-probability) |
@@ -358,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0486-predict-the-winner](https://github.com/Sire-Arman/Leetcode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sire-Arman/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -487,4 +490,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Sire-Arman/Leetcode/tree/master/0486-predict-the-winner) |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
+## Minimax
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->
