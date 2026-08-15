@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2691-count-vowel-strings-in-ranges](https://github.com/Sire-Arman/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Sire-Arman/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sire-Arman/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sire-Arman/Leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -165,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Sire-Arman/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sire-Arman/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Sire-Arman/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Bit Manipulation
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sire-Arman/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sire-Arman/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3715-maximum-coins-from-k-consecutive-bags](https://github.com/Sire-Arman/Leetcode/tree/master/3715-maximum-coins-from-k-consecutive-bags) |
 ## Sorting
 |  |
