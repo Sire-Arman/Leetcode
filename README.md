@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Sire-Arman/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sire-Arman/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 | [2107-find-unique-binary-string](https://github.com/Sire-Arman/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/Sire-Arman/Leetcode/tree/master/2145-grid-game) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Sire-Arman/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1833-maximum-ice-cream-bars](https://github.com/Sire-Arman/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Sire-Arman/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sire-Arman/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Sire-Arman/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -276,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/Sire-Arman/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sire-Arman/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sire-Arman/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Sire-Arman/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -384,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/Sire-Arman/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sire-Arman/Leetcode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sire-Arman/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sire-Arman/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Sire-Arman/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Sire-Arman/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -518,14 +522,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/Sire-Arman/Leetcode/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/Sire-Arman/Leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 ## Minimax
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Sire-Arman/Leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Sire-Arman/Leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Sire-Arman/Leetcode/tree/master/1406-stone-game-iii) |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
+## Nim Game
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/Sire-Arman/Leetcode/tree/master/2029-stone-game-ix) |
 <!---LeetCode Topics End-->
