@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Sire-Arman/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Sire-Arman/Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Sire-Arman/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sire-Arman/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Sire-Arman/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -177,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sire-Arman/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Sire-Arman/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Sire-Arman/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Sire-Arman/Leetcode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Sire-Arman/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [1631-path-with-minimum-effort](https://github.com/Sire-Arman/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sire-Arman/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3453-separate-squares-i](https://github.com/Sire-Arman/Leetcode/tree/master/3453-separate-squares-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3620-network-recovery-pathways](https://github.com/Sire-Arman/Leetcode/tree/master/3620-network-recovery-pathways) |
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/Sire-Arman/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Sire-Arman/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Sire-Arman/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sire-Arman/Leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -497,6 +501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sire-Arman/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sire-Arman/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Linked List
@@ -511,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Combinatorics
 |  |
 | ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sire-Arman/Leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Sire-Arman/Leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Recursion
 |  |
